@@ -31,7 +31,7 @@ WORKDIR /tmp
 
 ENV VERSION=${VERSION}
 ENV VIVADO_BASE=/tools/eda/xilinx
-ENV FUSESOC_MODULEFILES=/tools/modulefiles/eda/xilinx/vivado
+ENV VIVADO_MODULEFILES=/tools/modulefiles/eda/xilinx/vivado
 
 COPY install.sh /tmp/
 COPY webpack_config.txt /tmp/
